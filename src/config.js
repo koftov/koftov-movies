@@ -1,6 +1,12 @@
 // Configuration for TMDB API
 // Read more about the API here: https://developers.themoviedb.org/
 
+export const auth0Config = {
+  domain: "koftov.eu.auth0.com",
+  client_id: "cOaPY1vIWz9U1LjI23A1fk31GpWo8gIw",
+  redirect_uri: "http://localhost:3000",
+};
+
 const API_URL = "https://api.themoviedb.org/3/";
 const API_KEY =
   process.env.REACT_APP_API_KEY || "a8e3becf0641a3a8366b2668430f66b1";
